@@ -1,0 +1,18 @@
+.journey__text {
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 14px;
+   margin: 8px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+   .journey__text {
+      margin: 8px 0 0 24px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .journey__text {
+      margin: 8px 0 0 24px;
+   }
+}

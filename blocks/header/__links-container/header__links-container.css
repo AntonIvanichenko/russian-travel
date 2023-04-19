@@ -1,0 +1,19 @@
+.header__links-container {
+   /* min-width: 75px; */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   margin: 0;
+   padding: 18px 0 6px;
+   list-style-type: none;
+}
+
+.header__links-container a:visited {
+   border-bottom: 1px #FFFFFF solid;
+} 
+
+@media screen and (max-width: 320px) {
+   .header__links-container {
+      padding: 14px 0 8px;
+   }
+}

@@ -1,0 +1,17 @@
+ .journey {
+    max-width: 984px;
+    margin: 0 auto;
+    padding-bottom: 92px;
+ }
+
+ @media screen and (max-width: 768px) {
+    .journey {
+       padding-bottom: 88px;
+    }
+ }
+
+ @media screen and (max-width: 320px) {
+    .journey {
+       padding-bottom: 64px;
+    }
+ }
