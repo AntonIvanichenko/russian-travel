@@ -1,11 +1,18 @@
  .journey {
-    max-width: 984px;
+    width: 76.9%;
     margin: 0 auto;
     padding-bottom: 92px;
  }
 
+ @media screen and (max-width: 1024px) {
+    .journey {
+       width: 90.6%;
+    }
+ }
+
  @media screen and (max-width: 768px) {
     .journey {
+       width: auto;
        padding-bottom: 88px;
     }
  }

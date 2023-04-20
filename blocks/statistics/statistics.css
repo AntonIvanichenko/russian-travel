@@ -1,28 +1,25 @@
 .statistics {
-   max-width: 984px;
+   width: 77%;
    margin: 0 auto;
    padding-bottom: 92px;
 }
 
-.statistics__title {
-   font-weight: 900;
-   font-size: 54px;
-   line-height: 1.1;
-   margin: 0;
+@media screen and (max-width: 1024px) {
+   .statistics {
+      width: 90.6%;
+   }
 }
 
-.statistics__paregraph {
-   max-width: 690px;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 163%;
-   margin: 0;
+@media screen and (max-width: 768px) {
+   .statistics {
+      width: 94%;
+      padding-bottom: 88px;
+   }
 }
 
-.statistics__list {
-   list-style-type: none;
-   padding-left: 0;
-   margin: 0;
+@media screen and (max-width: 320px) {
+   .statistics {
+      width: 90%;
+      padding-bottom: 64px;
+   }
 }
-
-.statistics__item {}
