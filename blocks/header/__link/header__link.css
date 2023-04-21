@@ -5,12 +5,11 @@
    color: #FFFFFF;
    margin-left: 18px;
    text-decoration: none;
-/*   border-bottom: 1px #FFFFFF solid;*/
 }
 
- /*.header__link a:visited {
-   border-bottom: 1px #FFFFFF solid;
-} */
+.header__link:first-child {
+   border-bottom: 3px #FFFFFF solid;
+}
 
 @media screen and (max-width: 320px) {
    .header__link {

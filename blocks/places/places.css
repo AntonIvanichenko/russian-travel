@@ -1,12 +1,11 @@
 .places {
-   width: 77%;
+   width: 76.9%;
    margin: 0 auto;
 }
 
 .place {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   grid-template-rows: ;
    column-gap: 40px;
    row-gap: 48px;
    padding-bottom: 80px;
@@ -41,7 +40,9 @@
 }
 
 .place__image {
-   width: 100%;
+   background-image: url(../../images/place__image.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
 }
 
 .place__paragraph {

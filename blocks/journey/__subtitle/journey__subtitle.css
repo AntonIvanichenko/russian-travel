@@ -9,7 +9,21 @@
 
 @media screen and (max-width: 1024px) {
    .journey__subtitle {
-      margin: 32px auto 56px;
+      margin: 30px auto 56px;
+   }
+}
+
+@media screen and (max-width: 767.99px) {
+   .journey__subtitle {
+      max-width: calc(2.3%*31);
+      font-size: 3.9vw;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .journey__subtitle {
+      max-width: 288px;
+      font-size: 16px;
    }
 }
 
