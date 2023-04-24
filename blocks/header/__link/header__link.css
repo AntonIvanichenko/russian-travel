@@ -3,12 +3,7 @@
    font-size: 24px;
    line-height: 1.15;
    color: #FFFFFF;
-   margin-left: 18px;
    text-decoration: none;
-}
-
-.header__link:first-child {
-   border-bottom: 2px #FFFFFF solid;
 }
 
 @media screen and (max-width: 320px) {
