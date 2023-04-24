@@ -1,4 +1,6 @@
 .cover {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
    max-width: 1280px;
    display: -ms-grid;
    display: grid;

@@ -1,12 +1,7 @@
 .header__item {
-   border-bottom: 2px #FFFFFF solid;
    margin-left: 18px;
 }
 
 .header__item:hover {
    opacity: 0.3;
-}
-
-.header__item:last-child {
-   border-bottom: none;
 }

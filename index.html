@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Путешествия по России</title>
    <link rel='stylesheet' href='./pages/index.css' type="text/css">
 </head>
 
@@ -19,7 +19,7 @@
          </div>
          <nav>
             <ul class="header__list">
-               <li class="header__item"><a class="header__link" href="#">Ru</a></li>
+               <li class="header__item header__item_active"><a class="header__link" href="#">Ru</a></li>
                <li class="header__item"><a class="header__link" href="#">En</a></li>
             </ul>
          </nav>
@@ -27,7 +27,7 @@
       <main class="main">
          <section class="journey narrow-container block-indents">
             <h1 class="journey__title">Путешествия по России</h1>
-            <h2 class="journey__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+            <h2 class="journey__subtitle">Настоящая страна не в выпусках новостей, а&nbsp;здесь.</h2>
             <img class="journey__trek-image" src="./images/journey__trek-image.jpg"
                alt="Маршрут проложен через всю страну от Пскова до Улан-Удэ.">
             <p class="journey__text">ваша полка — верхняя</p>
@@ -53,24 +53,24 @@
                <li class="statistics__item">Аэропортов <span class="statistics__item-meaning">241</span></li>
             </ul>
          </section>
-         <section class="photo-grid wide-container block-indents">
+         <section class="photo-grid wide-container block-indents" aria-label="Блок фотографий">
             <ul class="photo-grid__list">
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 1.jpg" alt="Вид в окно поезда"></li>
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 2.jpg"
+               <li><img class="photo-grid__item" src="./images/photo-grid__item1.jpg" alt="Вид в окно поезда"></li>
+               <li><img class="photo-grid__item" src="./images/photo-grid__item2.jpg"
                      alt="Вид на горы в облаках с высоты"></li>
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 3.jpg" alt="Собака на стоге сена"></li>
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 4.jpg" alt="Хвойный лес в дымке"></li>
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 5.jpg"
+               <li><img class="photo-grid__item" src="./images/photo-grid__item3.jpg" alt="Собака на стоге сена"></li>
+               <li><img class="photo-grid__item" src="./images/photo-grid__item4.jpg" alt="Хвойный лес в дымке"></li>
+               <li><img class="photo-grid__item" src="./images/photo-grid__item5.jpg"
                      alt="Автомобиль на толстом льду Байкала"></li>
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 6.jpg" alt="Песчаный берег моря"></li>
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 7.jpg" alt="Снежные вершины гор"></li>
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 8.jpg"
+               <li><img class="photo-grid__item" src="./images/photo-grid__item6.jpg" alt="Песчаный берег моря"></li>
+               <li><img class="photo-grid__item" src="./images/photo-grid__item7.jpg" alt="Снежные вершины гор"></li>
+               <li><img class="photo-grid__item" src="./images/photo-grid__item8.jpg"
                      alt="Знак пешеходного перехода на фоне берегоукреплений"></li>
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 9.jpg"
+               <li><img class="photo-grid__item" src="./images/photo-grid__item9.jpg"
                      alt="Вид гор с высоты птичьего полёта"></li>
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 10.jpg" alt="Одинокая гора"></li>
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 11.jpg" alt="Фьёрд"></li>
-               <li><img class="photo-grid__item" src="./images/photo-grid__item 12.jpg" alt="Туманные холмы"></li>
+               <li><img class="photo-grid__item" src="./images/photo-grid__item10.jpg" alt="Одинокая гора"></li>
+               <li><img class="photo-grid__item" src="./images/photo-grid__item11.jpg" alt="Фьёрд"></li>
+               <li><img class="photo-grid__item" src="./images/photo-grid__item12.jpg" alt="Туманные холмы"></li>
             </ul>
          </section>
          <section class="places narrow-container block-indents" aria-label="Блок статей">
@@ -176,7 +176,7 @@
             </article>
          </section>
          <section class="cover wide-container block-indents">
-            <img class="cover__background" src="./images/cover__background.jpg" alt="">
+            <img class="cover__background" src="./images/cover__background.jpg" alt="Железнодорожный узел">
             <div class="cover__opacity"></div>
             <div class="cover__content-box">
                <h2 class="cover__title"><a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">До
@@ -190,12 +190,16 @@
       <footer class="footer wide-container">
          <nav>
             <ul class="footer__list">
-               <li class="footer__link-box"><a class="footer__link" href="" target="_blank">Карты</a></li>
-               <li class="footer__link-box"><a class="footer__link" class="footer__link" href=""
+               <li class="footer__link-box"><a class="footer__link" href="https://yandex.ru/maps"
+                     target="_blank">Карты</a></li>
+               <li class="footer__link-box"><a class="footer__link" href="https://yandex.ru/pogoda"
                      target="_blank">Погода</a></li>
-               <li class="footer__link-box"><a class="footer__link" href="" target="_blank">Расписание</a></li>
-               <li class="footer__link-box"><a class="footer__link" href="" target="_blank">Календарь</a></li>
-               <li class="footer__link-box"><a class="footer__link" href="" target="_blank">Путешествия</a></li>
+               <li class="footer__link-box"><a class="footer__link" href="https://rasp.yandex.ru"
+                     target="_blank">Расписание</a></li>
+               <li class="footer__link-box"><a class="footer__link" href="https://calendar.yandex.ru"
+                     target="_blank">Календарь</a></li>
+               <li class="footer__link-box"><a class="footer__link" href="https://travel.yandex.ru"
+                     target="_blank">Путешествия</a></li>
             </ul>
          </nav>
          <p class="footer__copyright">&copy; 2023. Антон</p>
