@@ -1,25 +1,21 @@
 .statistics {
-   width: 76.9%;
-   margin: 0 auto;
+   padding-left: 48px;
+   padding-right: 48px;
    padding-bottom: 92px;
-}
-
-@media screen and (max-width: 1024px) {
-   .statistics {
-      width: 90.6%;
-   }
 }
 
 @media screen and (max-width: 768px) {
    .statistics {
-      width: 94%;
+      padding-left: 24px;
+      padding-right: 24px;
       padding-bottom: 88px;
    }
 }
 
 @media screen and (max-width: 320px) {
    .statistics {
-      width: 90%;
+      padding-left: 16px;
+      padding-right: 16px;
       padding-bottom: 64px;
    }
 }

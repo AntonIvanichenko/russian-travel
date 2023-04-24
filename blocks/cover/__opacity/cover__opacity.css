@@ -1,0 +1,16 @@
+.cover__opacity {
+   height: 100%;
+   -ms-grid-column: 1;
+   -ms-grid-column-span: 1;
+   grid-column: 1 / 2;
+   -ms-grid-row: 1;
+   -ms-grid-row-span: 1;
+   grid-row: 1 / 2;
+   background-color: #2A2C2F;
+   opacity: 0.3;
+   z-index: 2;
+}
+
+.cover:hover .cover__opacity {
+   opacity: 0.8;
+}

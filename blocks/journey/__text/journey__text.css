@@ -5,7 +5,7 @@
    margin: 8px 0 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970px) {
    .journey__text {
       margin: 8px 0 0 24px;
    }

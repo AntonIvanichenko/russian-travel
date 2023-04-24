@@ -1,55 +1,22 @@
 .places {
-   width: 76.9%;
-   margin: 0 auto;
-}
-
-.place {
+   display: -ms-grid;
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   column-gap: 40px;
-   row-gap: 48px;
-   padding-bottom: 80px;
+   -ms-grid-columns: 1fr;
+   grid-template-columns: 1fr;
+   row-gap: 80px;
+   padding-bottom: 92px;
 }
 
-.place__title {
-   font-weight: 900;
-   font-size: 72px;
-   line-height: 106%;
-   margin: 0;
+@media screen and (max-width: 1023px) {
+   .places {
+      row-gap: 73px;
+      padding-bottom: 90px;
+   }
 }
 
-.place__website {
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
-}
-
-.place__url-heading {
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 1;
-   color: #AAAAAA;
-}
-
-.place__link {
-   font-weight: 400;
-   font-size: 18px;
-   line-height: 122%;
-   color: #FFFFFF;
-   margin-top: 12px;
-}
-
-.place__image {
-   background-image: url(../../images/place__image.jpg);
-   background-size: contain;
-   background-repeat: no-repeat;
-}
-
-.place__paragraph {
-   max-width: 484px;
-   font-weight: 400;
-   font-size: 18px;
-   line-height: 163%;
-   margin: 0;
-   padding-bottom: 26px;
+@media screen and (max-width: 767px) {
+   .place {
+      row-gap: 50px;
+      padding-bottom: 66px;
+   }
 }

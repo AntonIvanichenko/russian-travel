@@ -8,7 +8,7 @@
 }
 
 .header__link:first-child {
-   border-bottom: 3px #FFFFFF solid;
+   border-bottom: 2px #FFFFFF solid;
 }
 
 @media screen and (max-width: 320px) {
