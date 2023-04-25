@@ -8,6 +8,11 @@
 
 В проэктной работе используются языки: 'Inter', Arial, sans-serif. Шрифты подключены локально, оптимизированы под устройства с различными разрешениями.
 
+<<<<<<< HEAD
+=======
+**GitHub**
+
+>>>>>>> 5345b875f0475e6ba446ea5af5dc3f0c0d18be64
 * [Ссылка на на GitHub Pages](https://antonivanichenko.github.io/russian-travel/)
 
 
