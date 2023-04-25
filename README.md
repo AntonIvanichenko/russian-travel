@@ -8,8 +8,6 @@
 
 В проэктной работе используются языки: 'Inter', Arial, sans-serif. Шрифты подключены локально, оптимизированы под устройства с различными разрешениями.
 
-**GitHub**
-
-* [Ссылка на на GitHub Pages](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Ссылка на на GitHub Pages](https://antonivanichenko.github.io/russian-travel/)
 
 
