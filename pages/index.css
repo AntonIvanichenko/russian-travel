@@ -18,6 +18,7 @@
 @import url(../blocks/block-indents/block-indents.css);
 @import url(../blocks/journey/__title/journey__title.css);
 @import url(../blocks/journey/__subtitle/journey__subtitle.css);
+@import url(../blocks/journey/__image-box/journey__image-box.css);
 @import url(../blocks/journey/__trek-image/journey__trek-image.css);
 @import url(../blocks/journey/__text/journey__text.css);
 
