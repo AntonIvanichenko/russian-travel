@@ -7,8 +7,6 @@
    -moz-column-gap: 40px;
    column-gap: 40px;
    row-gap: 48px;
-   padding-left: 48px;
-   padding-right: 48px;
    padding-bottom: 0;
 }
 
@@ -34,7 +32,7 @@
    .place {
       -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-      row-gap: 48px;
+      row-gap: 32px;
       padding-left: 0;
       padding-right: 0;
    }
