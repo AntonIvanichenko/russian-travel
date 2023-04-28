@@ -17,7 +17,7 @@
    align-content: center;
    background-image: url("../../../images/cover__background.jpg");
    background-size: contain;
-   background-position: cover;
+   background-position: center;
    background-repeat: no-repeat;
    text-decoration: none;
    position: relative;
@@ -33,12 +33,7 @@
 }
 
 .cover__background:hover::before {
-   content: "";
-   width: 100%;
-   height: 100%;
-   background-color: #2A2C2F;
    opacity: 0.8;
-   position: absolute;
 }
 
 @media screen and (max-width: 1279px) {
